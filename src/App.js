@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='grid-container'>
+         <header className="header">
+         <div className="brand">
+           <a href="index.html">Amazon</a>
+         </div>
+         <div className="header-links">
+           <a href="cart.html">Cart</a>
+           <a href="signin.html">Sign In</a>
+         </div>
+         </header>
+         <aside>Shopping Categories</aside>
+         <main className="main">
+           <div className="content">
+           <ul className="products">
+             <li><div className="product">
+               <img src=""/>
+               <div className="product-name">
+                 Shirts
+               </div>
+             </div></li>
+              
+           </ul>
+           </div>
+         </main>
+         <footer className="footer">
+           &copy; Copyright All rights reserved.
+         </footer>
     </div>
   );
 }
