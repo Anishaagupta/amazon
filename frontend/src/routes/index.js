@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
 import HomeScreen from '../Screens/Home/HomeScreen';
-import ProductScreen from '../Screens/Products/ProductScreen';
+import ProductScreen from '../Screens/Product/ProductScreen';
 
 const AppRouter = () =>{
     return (
